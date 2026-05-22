@@ -11,7 +11,7 @@ void rotation_get_topleft(int pivot_row, int pivot_col, int zone_size, int *top_
 
 int rotation_is_valid_pivot(int pivot_row, int pivot_col, int zone_size, int piece_row, int piece_col) {
     int top_row, left_col;
-    rotation_get_topleft(pivot_row, pivot_col, zone_size, &top_row, &left_col);
+    rotation_get_topleft(pivot_row, pivot_col, zone_size, &top_row, &left_col); 
 
     // Vérifie si la zone sort du plateau
     if (top_row < 0 || top_row + zone_size > ROWS) {
