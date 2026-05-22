@@ -1,5 +1,5 @@
 #ifndef BOARD_H
-#define BOARD_H
+#define BOARD_H 
 
 // Dimensions du plateau :
 #define COLS 8
