@@ -1,4 +1,4 @@
-#ifndef ROTATION_H
+#ifndef ROTATION_H 
 #define ROTATION_H
 
 #include "board.h"
