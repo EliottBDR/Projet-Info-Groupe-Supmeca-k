@@ -1,5 +1,5 @@
 #include "board.h"
-#include <stdio.h>
+#include <stdio.h> 
 #include <string.h>
 
 // Code couleur pour la zone de rotation en surbrillance (fond vert)
