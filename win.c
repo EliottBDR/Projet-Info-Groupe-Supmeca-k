@@ -1,4 +1,4 @@
-#include "win.h"
+#include "win.h" 
 #include <stdio.h>
  
 int win_check_status(const Board *b, int nb_players) {
