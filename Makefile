@@ -12,7 +12,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -Werror -I.
 
 # =========================
-# SOURCES
+# SOURCES 
 # =========================
 
 SRCS = main.c \
