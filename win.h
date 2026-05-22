@@ -1,4 +1,4 @@
-#ifndef WIN_H
+#ifndef WIN_H 
 #define WIN_H
 
 #include "board.h"
