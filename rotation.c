@@ -17,7 +17,7 @@ int rotation_is_valid_pivot(int pivot_row, int pivot_col, int zone_size, int pie
     if (top_row < 0 || top_row + zone_size > ROWS) {
     return 0;
   }
-    if (left_col < 0 || left_col + zone_size > COLS) {
+    if (left_col < 0 || left_col + zone_size > COLS) { 
     return 0;
   }
     // Vérifie si la pièce posée est bien dans la zone
