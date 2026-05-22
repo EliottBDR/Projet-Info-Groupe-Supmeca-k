@@ -1,4 +1,4 @@
-#include "gravity.h"
+#include "gravity.h" 
 
  void gravity_apply_col(Board *b, int col) {
     int write_row = ROWS - 1;//write est la ou la pièce doit tomber
