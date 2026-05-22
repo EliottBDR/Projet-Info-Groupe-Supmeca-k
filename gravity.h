@@ -1,4 +1,4 @@
-#ifndef GRAVITY_H
+#ifndef GRAVITY_H 
 #define GRAVITY_H
 
 
