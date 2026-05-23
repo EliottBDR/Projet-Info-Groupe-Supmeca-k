@@ -44,10 +44,10 @@ Sauvegarde
 
 Joueurs et symboles
 
+              symbole       couleur
+           
+joueur 1 :       >           jaune 
 
-           symbole    couleur
-joueur 1 :    >        jaune 
+joueur 2 :       (           cyan
 
-joueur 2 :    (        cyan
-
-joueur 3 :    [       magenta
+joueur 3 :       [          magenta
