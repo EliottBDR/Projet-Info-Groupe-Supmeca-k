@@ -389,7 +389,7 @@ int main(void){
     int choice;
     int nb;
 
-    srand((unsigned int)time(NULL));
+    srand(time(NULL));
 
     while(1){
         choice = menu_main();
