@@ -5,6 +5,7 @@
  * Toutes les données du jeu seront écrites
  * dans ce fichier puis relues plus tard.
  */
+
 #define SAVE_FILE "sauvegarde.bin"
 #include "player.h"
 int save_game(GameState *gs);
