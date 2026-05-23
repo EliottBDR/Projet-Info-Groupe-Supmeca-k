@@ -32,3 +32,9 @@ player.c / .h   # Gestion des joueurs et de l'état de la partie
 win.c / .h      # Détection de victoire ou d'égalité
 save.c / .h     # Sauvegarde et chargement de partie
 Makefile
+
+
+Sauvegarde
+
+- Le jeu propose de sauvegarder à la fin de chaque tour
+- La sauvegarde est stockée dans un fichier binaire sauvegarde.bin
