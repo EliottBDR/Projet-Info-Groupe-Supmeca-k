@@ -30,9 +30,8 @@ gravity.c / .h  # Gravité (chute des pièces, colonne pleine)
 rotation.c / .h # Rotation de zone (pivot, validation, application)
 player.c / .h   # Gestion des joueurs et de l'état de la partie
 win.c / .h      # Détection de victoire ou d'égalité
-save.c / .h    # Sauvegarde et chargement de partie
+save.c / .h     # Sauvegarde et chargement de partie
 Makefile
-
 
 Sauvegarde
 
@@ -40,6 +39,7 @@ Sauvegarde
 - La sauvegarde est stockée dans un fichier binaire sauvegarde.bin
 
 Joueurs et symboles
+
 
            symbole    couleur
 joueur 1 :    >        jaune 
