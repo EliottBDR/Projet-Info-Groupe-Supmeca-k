@@ -27,8 +27,8 @@ static int is_board_full(const Board *b){
 }
 
 /*
-** animate_drop : fait tomber une piece dans une colonne case par case
-** on place la piece temporairement ligne par ligne et on efface entre chaque
+   animate_drop : fait tomber une piece dans une colonne case par case
+   on place la piece temporairement ligne par ligne et on efface entre chaque
 */
 static void animate_drop(Board *b, int col, int target_row, int player_id){
     for(int r = 0; r <= target_row; r++){
@@ -41,13 +41,13 @@ static void animate_drop(Board *b, int col, int target_row, int player_id){
 }
 
 /*
-** animate_gravity : anime la chute des pieces apres une rotation
-**
-** before = plateau apres rotation (des pieces sont en l'air)
-** after  = plateau apres gravite (positions finales)
-**
-** on regarde combien chaque piece doit descendre, et on affiche
-** les etapes intermediaires pour que ca ressemble a une vraie chute
+   animate_gravity : anime la chute des pieces apres une rotation
+
+   before = plateau apres rotation (des pieces sont en l'air)
+   after  = plateau apres gravite (positions finales)
+ 
+   on regarde combien chaque piece doit descendre, et on affiche
+   les etapes intermediaires pour que ca ressemble a une vraie chute
 */
 static void animate_gravity(Board *before, const Board *after){
     int val;
