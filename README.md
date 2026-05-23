@@ -38,3 +38,12 @@ Sauvegarde
 
 - Le jeu propose de sauvegarder à la fin de chaque tour
 - La sauvegarde est stockée dans un fichier binaire sauvegarde.bin
+
+Joueurs et symboles
+
+           symbole    couleur
+joueur 1 :    >        jaune 
+
+joueur 2 :    (        cyan
+
+joueur 3 :    [       magenta
