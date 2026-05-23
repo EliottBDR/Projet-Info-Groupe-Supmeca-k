@@ -1,7 +1,7 @@
 PUISSANCE 5
 
-Règles du jeu
 
+Règles du jeu
 
 1.  Les joueurs jouent chacun leur tour
 2.  Le joueur choisit une colonne où faire tomber sa pièce 
@@ -15,3 +15,20 @@ Particularités
 
 - Les 4 coins du plateau sont occupés par des blocs indestructibles (résistants à la rotation et à la gravité)
 - Si il y a une victoire simultané de plusieurs joueurs après une rotation, c'est égalité 
+
+
+Compiler le projet:  make
+
+lancer le jeu:  ./game
+
+
+Structure des fichiers
+
+main.c          # Boucle principale, menus, animations
+board.c / .h    # Plateau de jeu (initialisation, affichage)
+gravity.c / .h  # Gravité (chute des pièces, colonne pleine)
+rotation.c / .h # Rotation de zone (pivot, validation, application)
+player.c / .h   # Gestion des joueurs et de l'état de la partie
+win.c / .h      # Détection de victoire ou d'égalité
+save.c / .h     # Sauvegarde et chargement de partie
+Makefile
