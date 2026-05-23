@@ -17,9 +17,13 @@ Particularités
 - Si il y a une victoire simultané de plusieurs joueurs après une rotation, c'est égalité 
 
 
-Compiler le projet:  make
+Compiler le projet:
 
-lancer le jeu:  ./game
+make
+
+lancer le jeu:  
+
+./game
 
 
 Structure des fichiers
