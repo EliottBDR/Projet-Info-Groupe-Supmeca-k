@@ -286,7 +286,7 @@ static int menu_main(void){
     
     if(scanf("%d", &choix) != 1){
         while (getchar() != '\n');
-        choix = 0;
+        choix = 9;
     } 
     else{
         while (getchar() != '\n');
