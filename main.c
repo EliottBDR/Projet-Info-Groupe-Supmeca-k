@@ -188,7 +188,8 @@ static void ask_pivot(const GameState *gs, int piece_row, int piece_col, int *ou
     while(1){
         printf(BOLD "   Ligne pivot (1-%d) : " RESET, ROWS);
         if(scanf("%d", &pr) != 1){
-            while (getchar() != '\n'); pr = 0; 
+            while (getchar() != '\n'); 
+            pr = 0; 
         }
         else{
             while (getchar() != '\n'); 
@@ -197,7 +198,8 @@ static void ask_pivot(const GameState *gs, int piece_row, int piece_col, int *ou
 
         printf(BOLD "   Colonne pivot (1-%d) : " RESET, COLS);
         if(scanf("%d", &pc) != 1){
-            while (getchar() != '\n'); pc = 0; 
+            while (getchar() != '\n'); 
+            pc = 0; 
         } 
         else{
             while (getchar() != '\n'); 
