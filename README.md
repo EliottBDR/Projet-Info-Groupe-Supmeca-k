@@ -1,5 +1,9 @@
 PUISSANCE 5
 
+Jeu de stratégie en terminal pour 2 ou 3 joueurs, inspiré du Puissance 4.
+L'objectif est d'aligner 5 pièces de sa couleur horizontalement, verticalement ou en diagonale.
+Chaque tour, le joueur pose une pièce dans une colonne, puis peut faire pivoter une zone du plateau.
+
 
 Règles du jeu
 
