@@ -374,7 +374,7 @@ static void game_loop(GameState *gs){
                 //Si la partie est finie, on copie les noms des joueurs dans un tableau local de sécurité avant d'appeler l'écran de résultats
                 strncpy(names[k], gs->players[k].name, MAX_NAME - 1);
             }
-            win_display_result(status, (const char (*)[MAX_NAME])names);
+            win_display_result(status, (const char (*)[MAX_NAME])names); //(*)[MAX_NAME]  pointeur vers un tableau de MAX_NAME chars
             return;
         }
 
