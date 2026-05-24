@@ -33,4 +33,4 @@ void player_next_turn(GameState *gs);
 // Affiche l'en-tête du tour (nom du joueur, taille de zone) :
 void player_display_turn_header(const GameState *gs);
 
-#endif // PLAYER_H 
+#endif 
