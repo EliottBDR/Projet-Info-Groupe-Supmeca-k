@@ -401,6 +401,9 @@ int main(void){
         else if(choice == 2){
             if(load_game(&gs) != 0){
                 printf("   Impossible de charger la sauvegarde.\n");
+                fflush(stdout); // Force l'affichage immédiat du texte à l'écran
+                
+                usleep(1500 * 1000); // Fait une pause de 1,5 seconde
                 continue;
             }
         }
@@ -412,6 +415,9 @@ int main(void){
         }
         else{
             printf("   Choix invalide.\n");
+            fflush(stdout); // Force l'affichage immédiat du texte à l'écran
+                
+                usleep(1500 * 1000); // Fait une pause de 1,5 seconde
             continue;
         }
 
