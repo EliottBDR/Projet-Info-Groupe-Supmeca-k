@@ -1,8 +1,8 @@
 #ifndef SAVE_H 
 #define SAVE_H
-/* Nom du fichier utilisé pour la sauvegarde.
+/* Nom du fichier utilisé pour la sauvegarde
  * Toutes les données du jeu seront écrites
- * dans ce fichier puis relues plus tard.
+ * dans ce fichier puis relues plus tard
  */
 
 #define SAVE_FILE "sauvegarde.bin"
