@@ -51,4 +51,4 @@ void board_display_highlight(const Board *b, int pivot_row, int pivot_col, int z
 // Affiche les numéros de colonnes au-dessus du plateau :
 void board_display_col_numbers(void);
 
-#endif                                    // BOARD_H
+#endif                                    
